@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23c9ba73-88cd-4e1a-9738-b6e9c566b7db" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/eval_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submissions/sub0.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submissions/sub1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submissions/sub2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/submissions/sub_testdengAI.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,22 +13,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="myeval.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mydmlib/myeval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="75">
+              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eval_model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eval_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-            </state>
-          </provider>
+      <file leaf-file-name="mypp.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mydmlib/mypp.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -54,6 +44,10 @@
       <list>
         <option value="$PROJECT_DIR$/eval_model.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Eval.ipynb" />
+        <option value="$PROJECT_DIR$/concat.ipynb" />
+        <option value="$PROJECT_DIR$/mydmlib/mypp.py" />
+        <option value="$PROJECT_DIR$/mydmlib/myeval.py" />
       </list>
     </option>
   </component>
@@ -69,6 +63,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,13 +74,12 @@
             <path>
               <item name="DengAI" type="b2602c69:ProjectViewProjectNode" />
               <item name="DengAI" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="mydmlib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -113,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_sample_imports.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,14 +137,90 @@
       <option name="project" value="LOCAL" />
       <updated>1559136960984</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test model with GradientBoosting">
+      <created>1559620394803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559620394804</updated>
+    </task>
+    <task id="LOCAL-00003" summary="model with RandomForest model">
+      <created>1559620447140</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559620447140</updated>
+    </task>
+    <task id="LOCAL-00004" summary="concatenating two files for 'weka'">
+      <created>1559620544321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559620544321</updated>
+    </task>
+    <task id="LOCAL-00005" summary="evaluating two result.csv's with MAE">
+      <created>1559620586614</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559620586614</updated>
+    </task>
+    <task id="LOCAL-00006" summary="remove unnecessary file: eval_model">
+      <created>1559620905254</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559620905254</updated>
+    </task>
+    <task id="LOCAL-00007" summary="my pre processing library initiated">
+      <created>1559620943759</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559620943759</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sample importing libraries">
+      <created>1559620974748</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559620974748</updated>
+    </task>
+    <task id="LOCAL-00009" summary="evaluation functions in mylib initiated">
+      <created>1559621004103</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559621004103</updated>
+    </task>
+    <task id="LOCAL-00010" summary="preprocessed data for weka">
+      <created>1559621033912</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559621033912</updated>
+    </task>
+    <task id="LOCAL-00011" summary="weka results">
+      <created>1559621053005</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559621053005</updated>
+    </task>
+    <task id="LOCAL-00012" summary="submission files of RandomForest and GradientBoosting">
+      <created>1559621101301</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559621101301</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1863" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972796" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -174,10 +244,38 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Data, Submission format added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data, Submission format added" />
+    <MESSAGE value="Test model with GradientBoosting" />
+    <MESSAGE value="model with RandomForest model" />
+    <MESSAGE value="concatenating two files for 'weka'" />
+    <MESSAGE value="evaluating two result.csv's with MAE" />
+    <MESSAGE value="remove unnecessary file: eval_model" />
+    <MESSAGE value="my pre processing library initiated" />
+    <MESSAGE value="sample importing libraries" />
+    <MESSAGE value="evaluation functions in mylib initiated" />
+    <MESSAGE value="preprocessed data for weka" />
+    <MESSAGE value="weka results" />
+    <MESSAGE value="submission files of RandomForest and GradientBoosting" />
+    <option name="LAST_COMMIT_MESSAGE" value="submission files of RandomForest and GradientBoosting" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/_sample_imports.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="e#231#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sample_imports.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
@@ -191,19 +289,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eval_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/concat-checkpoint.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/_sample_imports.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="1425">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+          <folding>
+            <element signature="e#231#255#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eval.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DengAI_test_code1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concat.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydmlib/myeval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydmlib/mypp.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
