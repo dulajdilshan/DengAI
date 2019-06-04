@@ -40,20 +40,20 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import Imputer
 
 # Data viz
-from mlens.visualization import corr_X_y, corrmat
-
-# Model evaluation
-from mlens.metrics import make_scorer
-from mlens.model_selection import Evaluator
-
-# Ensemble
-from mlens.ensemble import SuperLearner
+# from mlens.visualization import corr_X_y, corrmat
+#
+# # Model evaluation
+# from mlens.metrics import make_scorer
+# from mlens.model_selection import Evaluator
+#
+# # Ensemble
+# from mlens.ensemble import SuperLearner
 
 from scipy.stats import uniform, randint
 from matplotlib.pyplot import show
 
 
-%matplotlib inline
+# %matplotlib inline
 
 # get input dataset
 features_train = pd.read_csv('data/dengue_features_train.csv')
